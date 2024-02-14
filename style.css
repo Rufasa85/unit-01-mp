@@ -1,0 +1,59 @@
+*{
+    font-family:"Comic Sans MS";
+    margin:0;
+    padding:0;
+}
+
+header,footer {
+    background-color: #6aa2b8;
+    color:#ffd200;
+    padding:40px 0;
+    font-size:36px;
+    border-bottom:10px solid  #0064a4;
+}
+
+header {
+    text-align: right;
+    position:fixed;
+    width: 100vw;
+    top:0;
+}
+
+footer {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    margin-top: 200px;
+}
+
+aside{
+    background-color: #0064a4;
+    border-top:10px solid #6aa2b8;
+    text-align: center;
+    padding:10px;
+}
+
+form{
+    border:5px solid #6aa2b8;
+    width:20%;
+    margin:0 auto;
+    border-radius: 10px;
+    padding:10px;
+    text-align: center;
+}
+button{
+    width:100%;
+    background-color: #ffd200;
+}
+
+.nav-link {
+    color:#ffd200;
+    margin: 0 10px;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+}
